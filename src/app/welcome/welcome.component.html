@@ -1,0 +1,30 @@
+
+    
+
+<div class="container-fluid bg-light py-5" style="background-image:url(https://img.freepik.com/free-vector/pink-oil-painted-canvas-background_53876-93727.jpg?size=626&ext=jpg);height: 100%;width: 100%;padding: 10%;">
+    <h1 class="display-5 fw-bold" style="color: rgb(78, 155, 158);">Welcome To The ZeOmega Online Test</h1>
+    
+    
+    <div class="name col-md-4 my-3">
+        <form [formGroup]="username" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label>User Name</label>
+                <input #name type="text" formControlName="name" class="form-control" placeholder="your user name"
+                [ngClass]="{'is-invalid':submitted && f['name'].errors}">
+                <div *ngIf="submitted && f['name'].errors" class="invalid-feedback">
+                    <div *ngIf="f['name'].errors['required']">
+                        User Name can't be empty
+                    </div>
+                </div>
+            </div><br>
+            <div class="form-group">
+                <button class="btn btn-warning">StartTest</button>
+            </div>
+           
+        </form>
+        
+    </div>
+    <h1 style="font-family: cursive; text-align: center;">All The Best....!</h1>
+</div>
+
+

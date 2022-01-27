@@ -1,0 +1,70 @@
+<div class="container-fluid mt-5" style="background-color:rgb(36, 38, 41); color: rgb(250, 250, 250);">
+    <div class="card">
+    <div class="d-flex justify-content-between p-3">
+    
+    <div class="test-header">
+    <h1 style="font-family: Monospace;">Html Online Test</h1>
+    <h3><span style="font-family: Monospace;">Welcome <span style="color: rgb(193, 248, 220);">{{name}}</span></span></h3>
+    </div>
+    </div>
+    <ng-container *ngIf="!isTestCompleted">
+    <div class="d-flex justify-content-around py-3">
+    <div class="score">
+    <h5 > {{points}} Points</h5>
+    </div>
+    <div class="Remaining-Questions">
+    <span style="font-style: italic;">Qestion {{currentQuestion+1}} of {{questionList.length}}</span>
+    </div>
+    <div class="Timer">
+    <h5>Time left: <span style="color: red;">{{counter}} Sec</span></h5>
+    
+    </div>
+    
+    
+    </div>
+    <div class="progress mb-3">
+    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [ngStyle]="{'width':progress+'%'}" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="question">
+    <div class="card">
+    <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+    </div>
+    </div>
+    <div class="options">
+    <ol *ngFor="let option of questionList[currentQuestion]?.options">
+    <li (click)="answer(currentQuestion+1, option)">
+    <div appChangeBg [isCorrect]= "option.correct" class="card">
+    {{option.text}}
+    </div>
+    
+    </li>
+    </ol>
+    </div>
+    <div class="d-flex justify-content-between" style="margin: auto;width: 50%;padding: 10px;">
+    <button style="margin:5px;" class="btn btn-primary" [disabled]="currentQuestion===0" (click)="previousQuestion()"><i class="fa text-primary fa-chevron-left fa-2x" aria-hidden="true"></i>Previous</button>
+    <button style="margin:5px;" class="btn btn-primary" (click)="resetTest()"><i class="fa fa-refresh text-primary fa-2x" aria-hidden="true"></i>Reset</button>
+    <button style="margin:5px;" class="btn btn-primary" [disabled]="currentQuestion===questionList.length-1" (click)="nextQuestion()"><i class="fa text-primary fa-chevron-right fa-2x" aria-hidden="true"></i>Next</button>
+    </div>
+    </ng-container>
+    <ng-container *ngIf="isTestCompleted">
+    <div class="container-fluid">
+    <div class="result text-center col-md-6 col-sm-12" style="">
+    <h3>Congratulations....!!!<br>You have successfully completed the test.<br>Your result is mentioned below:</h3><br>
+    <h4>Total question attempted: <span style="color: burlywood;">{{questionList.length}}</span></h4><br>
+    <h4>Total correct answered: <span style="color: green">{{correctAnswer}}</span></h4><br>
+    <h4>Total wrong answered: <span style="color: red">{{inCorrectAnswer}}</span></h4><br>
+    <h4>Your score: <strong>{{points}} Points</strong></h4><br>
+    
+    </div>
+    <div>
+    
+    </div>
+    </div>
+    <a href="main" class="btn btn-info" role="button" style="margin-left: 150px;">Back to Main</a>
+    </ng-container>
+    
+    
+    </div>
+    </div>
+    
+    

@@ -1,0 +1,167 @@
+{
+    "html": [{
+    "questionText": "The correct sequence of HTML tags for starting a webpage is -",
+    "options": [{
+    "text": "HTML, Head, Title, Body",
+    "correct": true
+    },
+    {
+    "text": "Head, Title, HTML, body"
+    },
+    {
+    "text": "HTML, Body, Title, Head"
+    },
+    {
+    "text": "HTML, Paragraph, Title, Body"
+    }
+    ],
+    "explanation": "HTML, Head, Title, Body"
+    },
+    {
+    "questionText": "Which of the following element is responsible for making the text bold in HTML?",
+    "options": [{
+    "text": "<pre>"
+    },
+    {
+    "text": "<br>"
+    },
+    {
+    "text": "<a>"
+    },
+    {
+    "text": "<b>",
+    "correct": true
+    }
+    ],
+    "explanation": "<b> - bold tag"
+    },
+    {
+    "questionText": "Which of the following tag is used for inserting the largest heading in HTML?",
+    "options": [{
+    "text": "<h6>"
+    },
+    {
+    "text": "<h1>",
+    "correct": true
+    },
+    {
+    "text": "<h2>"
+    },
+    {
+    "text": "<h4>"
+    }
+    ],
+    "explanation": "<h1>"
+    },
+    {
+    "questionText": "How to create an ordered list (a list with the list items in numbers) in HTML?",
+    "options": [{
+    "text": "<ul>"
+    },
+    {
+    "text": "<ol>",
+    "correct": true
+    },
+    {
+    "text": "<il>"
+    },
+    {
+    "text": "<i>"
+    }
+    ],
+    "explanation": "<ol> for ordered list"
+    },
+    {
+    "questionText": "Which of the following tag is used to define options in a drop-down selection list?",
+    "options": [{
+    "text": "<dropdown>",
+    "correct": true
+    },
+    {
+    "text": "<select>"
+    },
+    {
+    "text": "<option>"
+    },
+    {
+    "text": "<list>"
+    }
+    ],
+    "explanation": "<dropdown>"
+    },
+    {
+    "questionText": "Which of the following tag is used to add rows in the table?",
+    "options": [{
+    "text": "<tr> and </tr>"
+    },
+    {
+    "text": "<tl> and </tl>"
+    },
+    {
+    "text": "<td> and </td>"
+    },
+    {
+    "text": "<tr> and </tr>",
+    "correct": true
+    }
+    ],
+    "explanation": "<tr> and </tr>"
+    },
+    {
+    "questionText": "Which of the following HTML tag is used to display the text with scrolling effect?",
+    "options": [{
+    "text": "<scroll>"
+    },
+    {
+    "text": "<marquee>",
+    "correct": true
+    },
+    {
+    "text": "<option>"
+    },
+    {
+    "text": "<div>"
+    }
+    ],
+    "explanation": "<marquee>"
+    },
+    {
+    "questionText": "Which of the following HTML tag is the special formatting tag?",
+    "options": [{
+    "text": "<pre>",
+    "correct": true
+    },
+    {
+    "text": "<p>"
+    },
+    {
+    "text": "<br>"
+    },
+    {
+    "text": "<pr>"
+    }
+    ],
+    "explanation": "<pre>"
+    },
+    {
+    "questionText": "Which of the following is the container for <tr>, <th>, and <td> ?",
+    "options": [{
+    "text": "<table>",
+    "correct": true
+    },
+    {
+    "text": "<data>"
+    },
+    {
+    "text": "<div>"
+    },
+    {
+    "text": "<format>"
+    }
+    ],
+    "explanation": "<table>"
+    }
+    ]
+    }
+    
+    

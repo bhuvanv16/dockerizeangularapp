@@ -1,0 +1,167 @@
+{
+    "javascript": [{
+    "questionText": "Which of the following function of String object returns the character at the specified index?",
+    "options": [{
+    "text": "charAt()",
+    "correct": true
+    },
+    {
+    "text": "charCodeAt()"
+    },
+    {
+    "text": "concat()"
+    },
+    {
+    "text": "indexOf()"
+    }
+    ],
+    "explanation": ""
+    },
+    {
+    "questionText": "Which of the following is true about variable naming conventions in JavaScript?",
+    "options": [{
+    "text": "You should not use any of the JavaScript reserved keyword as variable name."
+    },
+    {
+    "text": "JavaScript variable names should not start with a numeral (0-9)."
+    },
+    {
+    "text": "None of the above"
+    },
+    {
+    "text": "Both of the above",
+    "correct": true
+    }
+    ],
+    "explanation": ""
+    },
+    {
+    "questionText": "Which is not valid data type in Javascript",
+    "options": [{
+    "text": "Undefined"
+    },
+    {
+    "text": "Float",
+    "correct": true
+    },
+    {
+    "text": "Number"
+    },
+    {
+    "text": "String"
+    }
+    ],
+    "explanation": "Float"
+    },
+    {
+    "questionText": "When interpreter encounters an empty statements, what it will do:",
+    "options": [{
+    "text": "Prompts to complete the statement"
+    },
+    {
+    "text": "Ignores the statements",
+    "correct": true
+    },
+    {
+    "text": "Throws error!"
+    },
+    {
+    "text": "shows warning"
+    }
+    ],
+    "explanation": ""
+    },
+    {
+    "questionText": "The 'function' and ' var' are known as:",
+    "options": [{
+    "text": "Declaration statements",
+    "correct": true
+    },
+    {
+    "text": "Prototype"
+    },
+    {
+    "text": "Data types"
+    },
+    {
+    "text": "Keywords"
+    }
+    ],
+    "explanation": ""
+    },
+    {
+    "questionText": "Which of the following type of a variable is volatile?",
+    "options": [{
+    "text": "Volatile variable"
+    },
+    {
+    "text": "Static variable"
+    },
+    {
+    "text": "Immutable variable"
+    },
+    {
+    "text": "Mutable variable",
+    "correct": true
+    }
+    ],
+    "explanation": ""
+    },
+    {
+    "questionText": "In the JavaScript, which one of the following is not considered as an error:",
+    "options": [{
+    "text": "Missing of semicolons"
+    },
+    {
+    "text": "Division by zero",
+    "correct": true
+    },
+    {
+    "text": "Syntax error"
+    },
+    {
+    "text": "Missing of Brackets"
+    }
+    ],
+    "explanation": ""
+    },
+    {
+    "questionText": "Which of the following number object function returns the value of the number?",
+    "options": [{
+    "text": "valueOf()",
+    "correct": true
+    },
+    {
+    "text": "toString"
+    },
+    {
+    "text": "toLocalString"
+    },
+    {
+    "text": "toPrecision"
+    }
+    ],
+    "explanation": ""
+    },
+    {
+    "questionText": "Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters?",
+    "options": [{
+    "text": "substr()",
+    "correct": true
+    },
+    {
+    "text": "slice()"
+    },
+    {
+    "text": "split()"
+    },
+    {
+    "text": "search()"
+    }
+    ],
+    "explanation": "this.propertyName is the way to access a specific property within a class"
+    }
+    ]
+    }
+    
+    

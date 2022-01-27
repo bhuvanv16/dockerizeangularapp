@@ -1,0 +1,167 @@
+{
+    "css": [{
+    "questionText": "CSS stands for -",
+    "options": [{
+    "text": "Cascading style sheets",
+    "correct": true
+    },
+    {
+    "text": "Cascade system sheets"
+    },
+    {
+    "text": "Color and style sheets"
+    },
+    {
+    "text": "None of the above"
+    }
+    ],
+    "explanation": "Cascading style sheets"
+    },
+    {
+    "questionText": "The property in CSS used to change the background color of an element is :",
+    "options": [{
+    "text": "bgcolor"
+    },
+    {
+    "text": "color"
+    },
+    {
+    "text": "colorbg"
+    },
+    {
+    "text": "background-color",
+    "correct": true
+    }
+    ],
+    "explanation": "The background-color property is used to specify the background color of an element."
+    },
+    {
+    "questionText": "The CSS property used to control the element's font-size is -",
+    "options": [{
+    "text": "text-style"
+    },
+    {
+    "text": "font-size",
+    "correct": true
+    },
+    {
+    "text": "text-size"
+    },
+    {
+    "text": "None of the above"
+    }
+    ],
+    "explanation": "The font-size property in CSS is used to specify the height and size of the font."
+    },
+    {
+    "questionText": "Which of the following is the correct syntax to make the background-color of all paragraph elements to yellow?",
+    "options": [{
+    "text": "p {background-color : #yellow;}"
+    },
+    {
+    "text": "p {background-color : yellow;}",
+    "correct": true
+    },
+    {
+    "text": "all {background-color : yellow;}"
+    },
+    {
+    "text": "all p {background-color : #yellow;}"
+    }
+    ],
+    "explanation": "The background-color property in CSS is used to change the background color of an element. The correct syntax to make the background color of all paragraph elements to yellow is: p {background-color : yellow;}."
+    },
+    {
+    "questionText": "The CSS property used to make the text bold is -",
+    "options": [{
+    "text": "font-weight : bold",
+    "correct": true
+    },
+    {
+    "text": "weight: bold"
+    },
+    {
+    "text": "font: bold"
+    },
+    {
+    "text": "style: bold"
+    }
+    ],
+    "explanation": "The font-weight property is used for setting the thickness and boldness of the font. It is used to define the weight of the text. The available weight depends on the font-family, which is used by the browser."
+    },
+    {
+    "questionText": "Are the negative values allowed in padding property?",
+    "options": [{
+    "text": "Yes"
+    },
+    {
+    "text": "Can't say"
+    },
+    {
+    "text": "May be"
+    },
+    {
+    "text": "No",
+    "correct": true
+    }
+    ],
+    "explanation": "The negative values are not allowed when using the padding property."
+    },
+    {
+    "questionText": "The CSS property used to specify the transparency of an element is -",
+    "options": [{
+    "text": "Visibility"
+    },
+    {
+    "text": "Opacity",
+    "correct": true
+    },
+    {
+    "text": "Filter"
+    },
+    {
+    "text": "Overlay"
+    }
+    ],
+    "explanation": "The CSS opacity property is used to specify the transparency of an element. In simple words, you can say that it specifies the clarity of the image."
+    },
+    {
+    "questionText": "Which of the following CSS property is used to specify the space between every letter inside an element?",
+    "options": [{
+    "text": "letter-spacing",
+    "correct": true
+    },
+    {
+    "text": "alpha-spacing"
+    },
+    {
+    "text": "character-spacing"
+    },
+    {
+    "text": "alphabet-spacing"
+    }
+    ],
+    "explanation": "The letter-spacing property in CSS is used to control the space between every letter inside an element or the block of text."
+    },
+    {
+    "questionText": "Which of the following syntax is correct in CSS to make each word of a sentence start with a capital letter?",
+    "options": [{
+    "text": "text-transform : capitalize;",
+    "correct": true
+    },
+    {
+    "text": "text-style : capital;"
+    },
+    {
+    "text": "transform : capitalize;"
+    },
+    {
+    "text": "text-transform : capital;"
+    }
+    ],
+    "explanation": "The text-transform CSS property allows us to change the case of the text. It is used to control text capitalization."
+    }
+    ]
+    }
+    
+    
